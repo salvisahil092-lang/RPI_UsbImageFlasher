@@ -25,7 +25,7 @@ sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
 #4. Generate the Gradle wrapper (I couldn't fetch it in my sandbox)
 
-cd /workspaces/UsbImageFlasher   # your repo root
+cd /workspaces/RPI_UsbImageFlasher  # your repo root
 gradle wrapper --gradle-version 8.7
 
 #5. Find where JDK 17 actually is
