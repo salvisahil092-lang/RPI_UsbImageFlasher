@@ -1,6 +1,5 @@
 package com.example.usbimageflasher
 
-import android.app.AlertDialog
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -15,6 +14,7 @@ import android.os.Bundle
 import android.provider.OpenableColumns
 import android.widget.ListView
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.usbimageflasher.databinding.ActivityMainBinding
 import com.example.usbimageflasher.usb.MassStorageDevice
