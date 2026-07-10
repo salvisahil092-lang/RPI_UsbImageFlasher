@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Match any USB Mass Storage class device (class 0x08) -->
+    <usb-device class="8" />
+</resources>
